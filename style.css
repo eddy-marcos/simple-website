@@ -1,21 +1,18 @@
 .logo {
+  margin-left: 40px;
   font-family: 'Quicksand', sans-serif;
   font-size: 2.5em;
   text-shadow: 2px 2px #c1946a;
   color: #3e4444;
 }
+
 .nav-list {
   background-color:#82b74b;
-  /*float: right;*/
-  /*text-align: right;*/
-
-  position: fixed;
-
+  position: fixed;  /*keep the navigation at the top*/
   padding: 15px;
-  margin: 0px 0px 0px 350px;
+  margin: 0px 0px 0px 400px;
   border-radius: 20px;
   background: linear-gradient(90deg, #82b74b, #405d27);
-
 }
 
 .nav-list-item {
@@ -23,7 +20,6 @@
   padding: 20px;
   font-size: 1.5em;
   font-family: 'Ubuntu', sans-serif;
-
   }
 
 .nav-list-item a {
@@ -37,13 +33,15 @@
 main {
   margin-top: 80px;
 }
- article {
-   float: left;
-   font-family: 'Quicksand', sans-serif;
-   border-radius: 20px;
+
+article {
+  float: left;
+  font-size: 1.5em;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 20px;
   background: linear-gradient(90deg, #fff2df, #d9ad7c);
-  margin-left: 15px;
-  margin-bottom: 80px;
+  margin: 0px 40px 80px 40px;
+
 }
 
 footer {
@@ -53,11 +51,19 @@ footer {
 /*media query*/
 @media only screen and (max-width: 600px) {
 
-.nav-list-item {
-display: block;
-width: 100%;
-font-size: 1em;
-padding: 2px;
+  .nav-list-item {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    padding: 2px;
   }
 
 }
+/*
+@media only screen and (max-width: 500px) {
+
+  .nav-list  {
+
+  }
+
+} */
