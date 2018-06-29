@@ -1,0 +1,63 @@
+.logo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+  text-shadow: 2px 2px #c1946a;
+  color: #3e4444;
+}
+.nav-list {
+  background-color:#82b74b;
+  /*float: right;*/
+  /*text-align: right;*/
+
+  position: fixed;
+
+  padding: 15px;
+  margin: 0px 0px 0px 350px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #82b74b, #405d27);
+
+}
+
+.nav-list-item {
+  display: inline;
+  padding: 20px;
+  font-size: 1.5em;
+  font-family: 'Ubuntu', sans-serif;
+
+  }
+
+.nav-list-item a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+ a:hover{
+  color: #3e4444;
+}
+
+main {
+  margin-top: 80px;
+}
+ article {
+   float: left;
+   font-family: 'Quicksand', sans-serif;
+   border-radius: 20px;
+  background: linear-gradient(90deg, #fff2df, #d9ad7c);
+  margin-left: 15px;
+  margin-bottom: 80px;
+}
+
+footer {
+  clear: both;
+}
+
+/*media query*/
+@media only screen and (max-width: 600px) {
+
+.nav-list-item {
+display: block;
+width: 100%;
+font-size: 1em;
+padding: 2px;
+  }
+
+}
